@@ -10,11 +10,13 @@ while True:
         for str in evropa:
             print(f"{i}. {str}")
             i += 1
+        i = 0
         continue
     if  a == 'nolist':
         for str in noevropa:
             print(f"{i}. {str}")
             i += 1
+        i = 0
         continue
     
     for str in evropa:
